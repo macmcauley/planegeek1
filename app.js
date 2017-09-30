@@ -11,7 +11,7 @@ var express     = require("express"),
     User        = require("./models/user"),
     seedDB      = require("./seeds")
     
-//requiring routes
+//requiring route
 var commentRoutes    = require("./routes/comments"),
     planeRoutes = require("./routes/planes"),
     indexRoutes      = require("./routes/index");
